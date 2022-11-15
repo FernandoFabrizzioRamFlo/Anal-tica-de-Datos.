@@ -64,8 +64,9 @@
     font-family: Belgrano;
     color: #FFFF; 
 }
-.contentText{
+#contentTextPortada{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 1vw;
 }
