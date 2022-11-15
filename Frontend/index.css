@@ -8,56 +8,8 @@ html,body{
     flex-direction: column;
     width: 100;
     height: 100%;
+    
 
 }
-.card{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-height: 740px;
-}
-.logoDiv{
-    min-width: 8.5vw;
-    width: 8.69vw;
-    height: 100%;
-    margin-left: 1vw;
-}
-.logo{
-    max-width: 8.69vw;
-    min-width: 8.5vw;
-    height: auto;
-}
-.cardHeader{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 108px;
-}
-.HeaderCols{
-    display: flex;
-    flex-direction: row;
-}
-.logoDiv{
-    width: 10%;
-    height: 100%;
-}
-.headerTxt{
-    width: 90%;
-    height: 100%;
-}
-.cardContent{
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-.grayHeader{
-    background-color: #53606E;
-}
 
-#background1{
-    background-image: url('./Resources/City\ kitchen_2880_1280_0.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    opacity: 35%;
-}
 

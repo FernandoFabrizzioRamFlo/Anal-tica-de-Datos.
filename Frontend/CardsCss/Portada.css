@@ -1,0 +1,69 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 740px;
+}
+.logoDiv{
+    min-width: 8.5vw;
+    width: 8.69vw;
+    height: 100%;
+    margin-left: 1vw;
+}
+.logo{
+    max-width: 8.69vw;
+    min-width: 8.5vw;
+    height: auto;
+}
+.cardHeader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 108px;
+}
+.HeaderCols{
+    display: flex;
+    flex-direction: row;
+}
+.logoDiv{
+    width: 10%;
+    height: 100%;
+}
+.headerTxt{
+    width: 90%;
+    height: 100%;
+}
+.cardContent{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.grayHeader{
+    background-color: #53606E;
+}
+
+.imgBackground1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    overflow: hidden;
+}
+.imgBackground105{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 55%;
+    z-index: -1;
+    background-color: #53606E;
+}
+
+.textWhite{
+    font-family: Belgrano;
+    color: #FFFF; 
+}
+.contentText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
