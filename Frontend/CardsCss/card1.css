@@ -1,0 +1,16 @@
+.yellowHeader {
+    background-color: #FFD60A;
+}
+
+
+
+.titleCenterText {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.navyHeader {
+    background-color: #003566;
+}
