@@ -26,10 +26,17 @@
     flex-direction: row;
 }
 .logoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10%;
     height: 100%;
 }
 .headerTxt{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2.864vw;
     width: 90%;
     height: 100%;
 }
@@ -64,9 +71,9 @@
     font-family: Belgrano;
     color: #FFFF; 
 }
-#contentTextPortada{
+.contentTextPortada{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 1vw;
+    margin-left: 5vw;
 }

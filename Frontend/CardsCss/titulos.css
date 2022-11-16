@@ -4,6 +4,12 @@
     width: 100%;
     min-height: 610px;
 }
+.cardRightImage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 610px;
+}
 
 .yellowHeader {
     background-color: #FFD60A;
