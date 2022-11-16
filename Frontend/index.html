@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="/Frontend/CardsCss/Portada.css">
     <link rel="stylesheet" href="/Frontend/CardsCss/titulos.css">
-    <link rel="stylesheet" href="/Frontend/CardsCss/titulos.css">
+    <link rel="stylesheet" href="/Frontend/CardsCss/Intro.css">
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="/Frontend/CardsCss/content.css">
 
 </head>
@@ -37,50 +38,81 @@
                     <span></span>
                 </div>
                 <div class="contentTextPortada">
+
                     <span class="textWhite" style="font-size: 9vw;">
                         Refrigeradores <br> Whirpool
                     </span>
+
                     <span class="textWhite" style="font-size: 3.5vw; ">
                         Un análisis sobre su consumo <br> energético , temperaturas y más.
                     </span>
+
                 </div>
             </div>
         </div>
-
-        <div class="cardTitles">
+        <!-- Introducción -->
+        <div class="cardRightImage">
             <div id="generalContentIntro">
-
-                <div id=" introHeader">
+                <div class="cardHeader">
                     <div class="logodiv">
-
+                        <img src="./Resources/logo_blanco.png" alt="Whirpool logo" class='logo' style="margin-left: 7%;">
                     </div>
                     <div class="headerTxt">
-
+                        <div id="introHeaderTextRows">
+                            <span class="textWhite" style="font-size: 3vw ;">Comparativa costos Bimestral</span>
+                            <span class="textWhite" style="font-size: 2vw ;" > Whirpool vs Industria</span>               
+                        </div>
                     </div>
                 </div>
 
                 <div id="introContent">
-                    <div>
-
+                    <div class="introContentChild">
+                        <div class="iconDiv">
+                            <i class="goldIcons" data-feather="dollar-sign"></i>
+                        </div>
+                        <div class="introtextdata">
+                            <span class="textWhite" style="font-size: 1.7vw ;">Recibo de luz promedio:</span>
+                            <span class="textWhite" style="font-size: 1.7vw ;"> $437 mxn </span>   
+                            <span class="textWhite" style="font-size: 1.7vw ;">(scielo.org, 2021)</span>
+                        </div>
                     </div>
 
-                    <div>
-
+                    <div class="introContentChild">
+                        <div class="iconDiv">
+                            <i class="goldIcons" data-feather="zap"></i>
+                        </div>
+                        <div class="introtextdata">
+                            <span class="textWhite" style="font-size: 1.7vw ;">Promedio Kw/hr:</span>
+                            <span class="textWhite" style="font-size: 1.7vw ;"> Refrigerador whirlpool: </span>   
+                            <span class="textWhite" style="font-size: 1.7vw ;">62.48 ($53.17 mxn)</span>
+                        </div>
                     </div>
-                    
-                    <div>
-                        
+
+                    <div class="introContentChild">
+                        <div class="iconDiv">
+                            <i class="goldIcons" data-feather="zap"></i>
+                        </div>
+                        <div class="introtextdata">
+                            <span class="textWhite" style="font-size: 1.7vw ;">Promedio Kw/hr</span>
+                            <span class="textWhite" style="font-size: 1.7vw ;"> Refrigeradores promedio </span>   
+                            <span class="textWhite" style="font-size: 1.7vw ;">68.67 ($58.43 mxn)</span>
+                            <span class="textWhite" style="font-size: 1.7vw ;">(Energystar.gov,2022)</span>
+                        </div>
                     </div>
 
                 </div>
 
                 <div id="introDisclaimer">
+                    <spanc class="textWhite" style="font-size: 1.8vw; margin-left: 5vw;">Datos Bimestrales</span>
 
                 </div>
 
             </div>
             <div id= "lightsImageDiv">
-
+                <img src="./Resources/wtzdfjeynfmmypoqsauy.webp" class="imgBackground1">
+                <div class="imgBackground105">
+                    <span></span>
+                </div>
             </div>
 
 
@@ -287,6 +319,7 @@
     </div>
 
     <script src="index.js" async defer></script>
+    <script>feather.replace()</script>
 
 </body>
 
