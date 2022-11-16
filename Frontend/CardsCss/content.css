@@ -2,3 +2,12 @@
     font-family: Belgrano;
     color: #000814; 
 }
+
+.headerTxt12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+
+}
