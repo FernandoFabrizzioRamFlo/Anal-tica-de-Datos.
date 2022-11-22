@@ -5,18 +5,27 @@
     min-height: 610px;
     height: auto;
 }
+.cardPortada{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 710px;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
 .cardRightImage{
     display: flex;
     flex-direction: row;
     width: 100%;
     min-height: 610px;
 }
-
 .yellowHeader {
     background-color: #FFD60A;
 }
-
-
 
 .titleCenterText {
     display: flex;
