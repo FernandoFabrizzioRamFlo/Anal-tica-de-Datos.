@@ -37,3 +37,11 @@
 .navyHeader {
     background-color: #003566;
 }
+
+.cardTitlesContent{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 659px;
+}
