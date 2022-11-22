@@ -64,6 +64,15 @@
     height: 100%;
 }
 
+#mapaContent{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+
 #imagemapa {
     display: flex;
     flex-direction: column;
