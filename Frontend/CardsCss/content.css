@@ -3,6 +3,11 @@
     color: #000814; 
 }
 
+.textYellow{
+    font-family: Belgrano;
+    color: #FFC300; 
+}
+
 .headerTxt12 {
     display: flex;
     justify-content: center;
@@ -95,4 +100,21 @@
     align-items: center;
     width: 100%;
     padding-bottom: 50px;
+}
+
+.cardbrp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cardBRPColumns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
 }
