@@ -189,3 +189,16 @@
     align-items: center;
     margin-bottom: 20px;
 }
+
+#atipicoEstDescrpitivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.AtEstText{
+    font-size: 3rem;
+    font-weight: 600;
+}
