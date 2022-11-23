@@ -7,12 +7,17 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="/Frontend/CardsCss/Portada.css">
     <link rel="stylesheet" href="/Frontend/CardsCss/titulos.css">
     <link rel="stylesheet" href="/Frontend/CardsCss/Intro.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="/Frontend/CardsCss/content.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
 
 </head>
 
@@ -210,17 +215,46 @@
             </div>
             <!-- Card Content 1.2  -->
             <div class="cardTitlesContent ">
-                <div id="VarRelLeft">
-                    <div id="VRLColL">
-                        <span>A </span>
+                <div id="VRinnerWrap">
+                    <div id="VarRelLeft">
+                        <div id="VRCol">
+                            <span class="textBlack" style="font-size: 4vw; margin-bottom: 10px;">
+                                Familias</span>
+                            <span class="textBlack" style="font-size: 2vw; width: 53%; text-align: left;">
+                                4W3G80 117</span>
+                            <span class="textBlack" style="font-size: 2vw; width: 53%; text-align: left;">
+                                4W3G12 92</span>
+                            <span class="textBlack" style="font-size: 2vw; width: 53%; text-align: left;">
+                                6w3n80 79</span>
+                        </div>
+                        <div id="VRCol">
+                            <span class="textBlack" style="font-size: 4vw; margin-bottom: 10px;">
+                                Temperaturas</span>
+                            <span class="textBlack" style="font-size: 2vw; width: 53%; text-align: left;">
+                                RC|FC Average</span>
+                            <span class="textBlack" style="font-size: 2vw; width: 53%; text-align: left;">
+                                RC|FC 1</span>
+                            <span class="textBlack" style="font-size: 2vw; width: 53%; text-align: left;">
+                                RC|FC 2</span>
+                            <span class="textBlack" style="font-size: 2vw; width: 53%; text-align: left;">
+                                RC|FC 3</span>
+
+                        </div>
                     </div>
-                    <div id="VRLColR">
-                        <span>B</span>
+                    <div id="VarRelRight">
+                        <span class="textBlack" style="font-size: 3vw; margin-bottom: 10px;">
+                            Energy Usage Kwh/day</span>
+                        <span class="textBlack" style="font-size: 3vw; margin-bottom: 10px;">
+                            %Run Time</span>
+                        <span class="textBlack" style="font-size: 3vw; margin-bottom: 10px;">
+                            Supplier</span>
+                        <span class="textBlack" style="font-size: 3vw; margin-bottom: 10px;">
+                            Refrigerant</span>
+                        <span class="textBlack" style="font-size: 3vw; margin-bottom: 10px;">
+                            E-STAR</span>
                     </div>
                 </div>
-                <div id="VarRelRight">
-                    <span>c</span>
-                </div>
+
             </div>
 
         </div>
@@ -242,7 +276,15 @@
             <div class="mapaContent ">
                 <div id="heatmapContentDiv">
                     <div id="imageFilterDiv">
-                        <img class="heatMap" src="./Resources/botonfiltromapas.png">
+                        <select class="form-select form-select-lg text-white" style="--bs-bg-opacity: 1; background-color: #53606E; 
+                                font-size: 2vw;" aria-label="Default select example">
+                            <option selected>Selecciona un agrupamiento...
+                            </option>
+                            <option value="1">Todos los refrigeradores</option>
+                            <option value="2">Familia: 4W3G80 </option>
+                            <option value="3">Familia: 4W3G12</option>
+                            <option value="4">Familia: 6w3n80</option>
+                        </select>
                     </div>
                     <div id="imagemapa">
                         <img class="heatMap" src="./Resources/mapa de calor.png">
@@ -260,7 +302,6 @@
                     </div>
                     <div class="headerTxt">
                     </div>
-
                 </div>
             </div>
             <!-- Card Content 2  -->
@@ -273,11 +314,54 @@
                     <span class="textWhite" style="font-size: 9vw;">
                         Datos Atípicos
                     </span>
+                </div>
+            </div>
+        </div>
+        <!--CARD 2 (DATOS ATIPICOS Contenido)-->
+        <div class='cardTitles'>
+            <!-- Card Header 2 -->
+            <div class='cardHeader navyHeader'>
+                <div class="HeaderCols">
+                    <div class="logoDiv">
+                        <img src="./Resources/logo_blanco.png" alt="Whirpool logo" class='logo'>
+                    </div>
+                    <div class="headerTxt">
+                    </div>
+                </div>
+            </div>
+            <!-- Card Content 2  -->
+            <div class="cardTitlesContent ">
+                <div id="atipicoWrapper">
+                    <div id="atipicoLeft">
+                        <div class="atipicoFilter">
+                            <select class="form-select form-select-lg text-white" style="--bs-bg-opacity: 1; background-color: #53606E; 
+                                font-size: 2vw;" aria-label="Default select example">
+                                <option selected>Selecciona un agrupamiento...
+                                </option>
+                                <option value="1">Todos los refrigeradores</option>
+                                <option value="2">Familia: 4W3G80 </option>
+                                <option value="3">Familia: 4W3G12</option>
+                                <option value="4">Familia: 6w3n80</option>
+                            </select>
+                        </div>
+                        <div class="atipicoFilter">
+                            <select class="form-select form-select-lg text-white" style="--bs-bg-opacity: 1; background-color: #53606E; 
+                                font-size: 2vw;" aria-label="Default select example">
+                                <option selected>Selecciona un agrupamiento...
+                                </option>
+                                <option value="1">Todos los refrigeradores</option>
+                                <option value="2">Familia: 4W3G80 </option>
+                                <option value="3">Familia: 4W3G12</option>
+                                <option value="4">Familia: 6w3n80</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="atipicoRight">
+
+                    </div>
 
                 </div>
-
             </div>
-
         </div>
         <!--CARD 3 (RANGOS)-->
         <div class='cardTitles'>
@@ -462,6 +546,10 @@
 
     <script src="index.js" async defer></script>
     <script>feather.replace()</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
