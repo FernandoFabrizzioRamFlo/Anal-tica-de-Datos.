@@ -202,3 +202,25 @@
     font-size: 3rem;
     font-weight: 600;
 }
+.dashboardLeft {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.dashboardRight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
