@@ -1,10 +1,16 @@
+
+
+                
 .textBlack{
-    font-family: Belgrano;
+    font-family: 'Belgrano';
     color: #000814; 
 }
-
+.textWhite{
+    font-family: 'Belgrano';
+    color: #FFFF; 
+}
 .textYellow{
-    font-family: Belgrano;
+    font-family: 'Belgrano';
     color: #FFC300; 
 }
 
@@ -222,5 +228,19 @@
     width: 50%;
     height: 100%;
     padding-bottom: 10px;
+}
+#atipicosProportion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.atipicoDataSize{
+    font-size: 4vw;
+    font-weight: Bold;
+}
+.atipicoDataSize2{
+    font-size: 6vw;
+    font-weight: bold;
 }
 
