@@ -210,24 +210,19 @@
 }
 .dashboardLeft {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 100%;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    padding-left: 50px;
+
 }
 
 .dashboardRight{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
     width: 50%;
     height: 100%;
-    padding-bottom: 10px;
 }
 #atipicosProportion{
     display: flex;
@@ -244,3 +239,10 @@
     font-weight: bold;
 }
 
+.dashbtn {
+   background-color: #003566 !important;
+    width: 68.9583%;
+    height: 450px;
+    font-size: 3rem !important;
+    font-family: 'Belgrano';
+}
