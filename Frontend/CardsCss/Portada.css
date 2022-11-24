@@ -64,10 +64,6 @@
     background-color: #53606E;
 }
 
-.textWhite{
-    font-family: Belgrano;
-    color: #FFFF; 
-}
 .contentTextPortada{
     display: flex;
     flex-direction: column;
