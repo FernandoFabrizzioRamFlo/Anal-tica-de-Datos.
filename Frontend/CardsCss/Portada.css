@@ -76,3 +76,21 @@
     padding-bottom: 50px;
 }
 
+.recomendacionesImageCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.recomendacionesContentCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60.156%;
+    height: 100%;
+}
+
