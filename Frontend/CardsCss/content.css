@@ -189,7 +189,7 @@
 }
 .atipicoFilter{
     width: 35.2604vw;
-    height: 77px;
+    flex-direction: column;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -210,6 +210,7 @@
 }
 .dashboardLeft {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
