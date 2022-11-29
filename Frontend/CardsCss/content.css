@@ -243,3 +243,52 @@
     justify-content: center;
     width: 30%;
 }
+#tendenciasWrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+#tendenciasContentTitle{
+    display: flex;
+    height: 180px ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+#recoWrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+#recoLeftCol{
+    display: flex;
+    width: 45vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#recoRightCol{
+    display: flex;
+    width: 100%;
+
+}
+#arrowsImgDiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 12.187vw;
+}
+#arrowsImg{
+    width: 12.187vw;
+    object-fit: contain;
+}
+#moneyRecoDiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 25vw;
+}
