@@ -1,0 +1,329 @@
+
+
+                
+.textBlack{
+    font-family: 'Belgrano';
+    color: #000814; 
+}
+.textWhite{
+    font-family: 'Belgrano';
+    color: #FFFF; 
+}
+.textYellow{
+    font-family: 'Belgrano';
+    color: #FFC300; 
+}
+
+.headerTxt12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+
+}
+
+#generalContentCard12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60.156%;
+    height: 100%;
+}
+
+.varsText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 12.8125vw;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#twoValues{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 12.8125vw;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+
+}
+#generalContentCard13{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#dbIcon{
+    color: #53606E;
+    width: 24.8438vw ;
+    height: auto;
+}
+
+#imageFilterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#mapaContent{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+
+#imagemapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.heatMap {
+    width: 65.677vw;
+    height: auto;
+    object-fit: contain;
+}
+
+#heatmapContentDiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.cardbrp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#VarRelLeft{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+#VarRelRight{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    padding-left: 50px;
+}
+#VRinnerWrap{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#VRCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#atipicoWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cardBRPColumns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+#atipicoLeft{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+
+}
+#atipicoRight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.atipicoFilter{
+    width: 35.2604vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#atipicoEstDescrpitivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.AtEstText{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.dashboardLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+
+}
+
+.dashboardRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+#atipicosProportion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.atipicoDataSize{
+    font-size: 4vw;
+    font-weight: Bold;
+}
+.atipicoDataSize2{
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.dashbtn {
+   background-color: #003566 !important;
+    width: 68.9583%;
+    height: 450px;
+    font-size: 3rem !important;
+    font-family: 'Belgrano';
+}
+
+.cardTendencias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.conclusionTendenciasCols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+#tendenciasWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+#tendenciasContentTitle{
+    display: flex;
+    height: 180px ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+#tendenciasContentGraphs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#recoWrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+#recoLeftCol{
+    display: flex;
+    width: 45vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#recoRightCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+#arrowsImgDiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 12.187vw;
+}
+#arrowsImg{
+    width: 12.187vw;
+    object-fit: contain;
+}
+#moneyRecoDiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 25vw;
+}
+#react-entry-point{
+    width: 100%;
+}
