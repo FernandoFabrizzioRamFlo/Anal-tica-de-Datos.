@@ -1,7 +1,7 @@
 
 def rangos(dataBase, variable):
     if (variable == "Energy Consumed (kWh/yr)") or (variable == "% Run Time (M/M)"):
-        return "NA"
+        return [0,"NA","NA"]
     elif variable == "RC Temp Average A°F (M/M)" or (variable == "RC1 Temp °F") or (variable == "RC2 Temp A°F") or (variable == "RC3 Temp A°F"):
         min = 36
         max = 40
@@ -12,8 +12,8 @@ def rangos(dataBase, variable):
         min = -3
         max = 3
     else:
-        return "NA"
-    return len(dataBase[(dataBase[variable] >= min) & (dataBase[variable] <= max)])
+        return [0,"NA","NA"]
+    return [len(dataBase[(dataBase[variable] >= min) & (dataBase[variable] <= max)]), min, max]
 
 
 def famFilter(dataBase, Familia, variable):
@@ -26,13 +26,15 @@ def famFilter(dataBase, Familia, variable):
         storeFamInfo.append(filter[variable].mode().iloc[0])
         storeFamInfo.append(filter[variable].median())
         storeFamInfo.append(filter[variable].std())
-        storeFamInfo.append(rangos(filter, variable))
+        storeFamInfo.extend(rangos(filter, variable))
         return {'count': storeFamInfo[0],
                 'mean': storeFamInfo[1],
                 'mode': storeFamInfo[2],
                 'median': storeFamInfo[3],
                 'std': storeFamInfo[4],
-                'withinRange': storeFamInfo[5]}
+                'withinRange': storeFamInfo[5],
+                'min':storeFamInfo[6],
+                'max':storeFamInfo[7]}
     except:
         storeFamInfo = ['error']
         return storeFamInfo

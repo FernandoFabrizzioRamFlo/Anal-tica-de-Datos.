@@ -54,7 +54,7 @@ layout = """
     <link rel="stylesheet" href="content.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        {%css%}
+    {%css%}
 
 </head>
 
@@ -68,8 +68,8 @@ layout = """
             <div class='cardHeader grayHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400" alt="Whirpool logo" class='logo'
-                            style="margin-left: 7%;">
+                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400"
+                            alt="Whirpool logo" class='logo' style="margin-left: 7%;">
                     </div>
                     <div class="headerTxt">
                     </div>
@@ -77,7 +77,8 @@ layout = """
             </div>
             <!-- Card Content -->
             <div class="cardContent">
-                <img src="https://lh4.googleusercontent.com/8sG-8di91x9olkSpOjfsjW6ONK0s5p7EOJUsMKVFeRmXPMEziWGWiSq2cDpTODA6CcA=w2400" class="imgBackground1">
+                <img src="https://lh4.googleusercontent.com/8sG-8di91x9olkSpOjfsjW6ONK0s5p7EOJUsMKVFeRmXPMEziWGWiSq2cDpTODA6CcA=w2400"
+                    class="imgBackground1">
                 <div class="imgBackground105">
                     <span></span>
                 </div>
@@ -100,8 +101,8 @@ layout = """
             <div id="generalContentIntro">
                 <div class="cardHeader">
                     <div class="logodiv">
-                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400" alt="Whirpool logo" class='logo'
-                            style="margin-left: 7%;">
+                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400"
+                            alt="Whirpool logo" class='logo' style="margin-left: 7%;">
                     </div>
                     <div class="headerTxt">
                         <div id="introHeaderTextRows">
@@ -161,7 +162,8 @@ layout = """
 
             </div>
             <div id="lightsImageDiv">
-                <img src="https://lh6.googleusercontent.com/rWO_ieaNHdHx5N3yJ_7MeLICoc6Ur40SW7u-4unINeYVYsvrdzYgd3ppVuwI-EwGBLU=w2400" class="imgBackground1">
+                <img src="https://lh6.googleusercontent.com/rWO_ieaNHdHx5N3yJ_7MeLICoc6Ur40SW7u-4unINeYVYsvrdzYgd3ppVuwI-EwGBLU=w2400"
+                    class="imgBackground1">
                 <div class="imgBackground105">
                     <span></span>
                 </div>
@@ -176,7 +178,8 @@ layout = """
             <div class='cardHeader yellowHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh6.googleusercontent.com/PygddDSvmyMVJK2KO1eayyp3ytJ-UeCGzhVcIeJZDPMF4LJQjLU1t0MtlVqiNn9zN10=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh6.googleusercontent.com/PygddDSvmyMVJK2KO1eayyp3ytJ-UeCGzhVcIeJZDPMF4LJQjLU1t0MtlVqiNn9zN10=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt">
                     </div>
@@ -184,7 +187,8 @@ layout = """
             </div>
             <!-- Card Content 1  -->
             <div class="cardTitlesContent ">
-                <img src="https://lh4.googleusercontent.com/YAPUf2OH7J7w5kFMgD2K77y167GK_y00SCd8Hq06Z46s6GudD_rGa1kFnnZghEVMYqw=w2400" class="imgBackground1">
+                <img src="https://lh4.googleusercontent.com/YAPUf2OH7J7w5kFMgD2K77y167GK_y00SCd8Hq06Z46s6GudD_rGa1kFnnZghEVMYqw=w2400"
+                    class="imgBackground1">
                 <div class="imgBackground105">
                     <span></span>
                 </div>
@@ -202,7 +206,8 @@ layout = """
             <div class='cardHeader yellowHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh6.googleusercontent.com/PygddDSvmyMVJK2KO1eayyp3ytJ-UeCGzhVcIeJZDPMF4LJQjLU1t0MtlVqiNn9zN10=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh6.googleusercontent.com/PygddDSvmyMVJK2KO1eayyp3ytJ-UeCGzhVcIeJZDPMF4LJQjLU1t0MtlVqiNn9zN10=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt12">
                         <span class="textBlack" style="font-size: 3vw;">
@@ -249,7 +254,8 @@ layout = """
             <div class='cardHeader yellowHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh6.googleusercontent.com/PygddDSvmyMVJK2KO1eayyp3ytJ-UeCGzhVcIeJZDPMF4LJQjLU1t0MtlVqiNn9zN10=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh6.googleusercontent.com/PygddDSvmyMVJK2KO1eayyp3ytJ-UeCGzhVcIeJZDPMF4LJQjLU1t0MtlVqiNn9zN10=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt12">
                         <span class="textBlack" style="font-size: 3vw;">
@@ -307,7 +313,8 @@ layout = """
             <div class='cardHeader navyHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt">
                     </div>
@@ -315,7 +322,8 @@ layout = """
             </div>
             <!-- Card Content 2  -->
             <div class="cardTitlesContent ">
-                <img src="https://lh5.googleusercontent.com/bJC_k5alXWD0qdGrs6_oc6_knU3FRoDDZ91RH3T0HFjWX76RgHKGIt2ZQZk1Sxj0Wp8=w2400" class="imgBackground1">
+                <img src="https://lh5.googleusercontent.com/bJC_k5alXWD0qdGrs6_oc6_knU3FRoDDZ91RH3T0HFjWX76RgHKGIt2ZQZk1Sxj0Wp8=w2400"
+                    class="imgBackground1">
                 <div class="imgBackground105">
                     <span></span>
                 </div>
@@ -332,7 +340,8 @@ layout = """
             <div class='cardHeader navyHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt">
                     </div>
@@ -343,62 +352,65 @@ layout = """
                 <div id="atipicoWrapper">
                     <div id="atipicoLeft">
                         <div class="atipicoFilter">
-                            <form>
 
-                                <select class="form-select form-select-lg text-white" style="--bs-bg-opacity: 1; background-color: #53606E; 
+                            <select id="selectFamily" class="form-select form-select-lg text-white" style="--bs-bg-opacity: 1; background-color: #53606E; 
                                 font-size: 2vw;" aria-label="Default select example">
-                                    <option selected>Selecciona una Familia...
-                                    </option>>
-                                    <option value="1">4W3G80 </option>
-                                    <option value="2">4W3G12</option>
-                                    <option value="3">6w3n80</option>
-                                    <option value="4">5w3n80</option>
-                                    <option value="5">6w3n80</option>
-                                    <option value="6">4w3n90</option>
-                                    <option value="6">4w3iG81</option>
-                                    <option value="6">4w3n10</option>
-                                    <option value="6">4W3G90</option>
-                                    <option value="6">6w3g10</option>
-                                    <option value="6">0w3i10</option>
-                                </select>
-                                <br>
-                                <select class="form-select form-select-lg text-white" style="--bs-bg-opacity: 1; background-color: #53606E; 
+                                <option selected>Selecciona una Familia...
+                                </option>>
+                                <option value="4W3G80">4W3G80</option>
+                                <option value="4W3G12">4W3G12</option>
+                                <option value="6w3n80">6w3n80</option>
+                                <option value="5w3n80">5w3n80</option>
+                                <option value="6w3n80">6w3n80</option>
+                                <option value="4w3n90">4w3n90</option>
+                                <option value="4w3iG81">4w3iG81</option>
+                                <option value="4w3n10">4w3n10</option>
+                                <option value="4W3G90">4W3G90</option>
+                                <option value="6w3g10">6w3g10</option>
+                                <option value="0w3i10">0w3i10</option>
+                            </select>
+                            <br>
+                            <select id="selectVariable" class="form-select form-select-lg text-white" style="--bs-bg-opacity: 1; background-color: #53606E; 
                                 font-size: 2vw;" aria-label="Default select example">
-                                    <option selected>Selecciona una variable...
-                                    </option>
-                                    <option value="1">FC Temp Average First Position.</option>
-                                    <option value="2">RC Temp Average First Position. </option>
-                                    <option value="3">FC1 First Position.</option>
-                                    <option value="3">FC2 First Position.</option>
-                                    <option value="3">FC3 First Position.</option>
-                                    <option value="3">RC1 First Position.</option>
-                                    <option value="3">RC2 First Position.</option>
-                                    <option value="3">RC3 First Position.</option>
-                                    <option value="3"> Percentage Run Time First Position.</option>
-                                    <option value="3"> Below Rating Point.</option>
-                                </select>
-                                <br>
-                                <button type="button" class="btn btn-secondary btn-lg btn-block">Submit</button>
-                            </form>
+                                <option selected>Selecciona una variable...
+                                </option>
+                                <option value="FC Temp Average A°F (M/M)">FC Temp Average First Position.</option>
+                                <option value="RC Temp Average A°F (M/M)">RC Temp Average First Position. </option>
+                                <option value="FC1 Temp A°F">FC1 First Position.</option>
+                                <option value="FC2 Temp A°F">FC2 First Position.</option>
+                                <option value="FC3 Temp A°F">FC3 First Position.</option>
+                                <option value="RC1 Temp °F">RC1 First Position.</option>
+                                <option value="RC2 Temp A°F">RC2 First Position.</option>
+                                <option value="RC3 Temp A°F">RC3 First Position.</option>
+                                <option value="% Run Time (M/M)"> Percentage Run Time First Position.</option>
+                                <option value="% Below Rating Point"> Below Rating Point.</option>
+                                <option value="Energy Consumed (kWh/yr)"> Energy Consumed (kWh/yr).</option>
+                            </select>
+                            <br>
+                            <button id="submitBtn" type="button"
+                                class="btn btn-secondary btn-lg btn-block">Submit</button>
                         </div>
 
                         <div id="atipicoEstDescrpitivo">
-                            <span class="AtEstText textBlack">Elementos: <span
-                                    class="AtEstText textBlack">0</span></span>
-                            <span class="AtEstText textBlack">Promedio: <span
-                                    class="AtEstText textBlack">0</span></span>
-                            <span class="AtEstText textBlack">Moda: <span class="AtEstText textBlack">0</span></span>
-                            <span class="AtEstText textBlack">Mediana: <span class="AtEstText textBlack">0</span></span>
-                            <span class="AtEstText textBlack">Desviación Estandar: <span
-                                    class="AtEstText textBlack">0</span></span>
+                            <span class="AtEstText textBlack">Elementos: <span class="AtEstText textBlack"
+                                    id="count">0</span></span>
+                            <span class="AtEstText textBlack">Promedio: <span class="AtEstText textBlack"
+                                    id="mean">0</span></span>
+                            <span class="AtEstText textBlack" >Moda: <span
+                                    class="AtEstText textBlack" id="mode">0</span></span>
+                            <span class="AtEstText textBlack">Mediana: <span class="AtEstText textBlack"
+                                    id="mediana">0</span></span>
+                            <span class="AtEstText textBlack">Desviación Estandar: <span class="AtEstText textBlack"
+                                    id="std">0</span></span>
                         </div>
                     </div>
                     <div id="atipicoRight">
                         <div id="atipicosProportion">
                             <span class="textBlack atipicoDataSize">Rangos de Aceptación</span>
-                            <span class="textBlack atipicoDataSize">Rangos: <span>N/A</span></span>
-                            <span class="textYellow atipicoDataSize2"><span>0</span>/<span>0</span></span>
-                            <span class="textYellow atipicoDataSize2">0%</span>
+                            <span class="textBlack atipicoDataSize">Rangos: <span id="rango">N/A</span></span>
+                            <span class="textYellow atipicoDataSize2"><span id="withinRange">0</span>/<span
+                                    id="total">0</span></span>
+                            <span class="textYellow atipicoDataSize2" ><span id="percentagewithin">0</span>%</span>
                         </div>
                     </div>
 
@@ -411,7 +423,8 @@ layout = """
             <div class='cardHeader navyHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt">
                     </div>
@@ -420,7 +433,8 @@ layout = """
             </div>
             <!-- Card Content 5  -->
             <div class="cardTitlesContent ">
-                <img src="https://lh4.googleusercontent.com/PoFRBdfnGVNtReCAR3oYjeoj0ndGkOs-JleZ44j50FwArrSiRZdWJnNohyKAftnQwmU=w2400" class="imgBackground1">
+                <img src="https://lh4.googleusercontent.com/PoFRBdfnGVNtReCAR3oYjeoj0ndGkOs-JleZ44j50FwArrSiRZdWJnNohyKAftnQwmU=w2400"
+                    class="imgBackground1">
                 <div class="imgBackground105">
                     <span></span>
                 </div>
@@ -439,7 +453,8 @@ layout = """
             <div class='cardHeader navyHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt12">
                         <span class="textWhite" style="font-size: 3vw;"> Tendencias</span>
@@ -461,7 +476,8 @@ layout = """
             <div class='cardHeader grayHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt">
                     </div>
@@ -470,7 +486,8 @@ layout = """
             </div>
             <!-- Card Content 6  -->
             <div class="cardTitlesContent ">
-                <img src="https://lh4.googleusercontent.com/8ogtEyK39ntRaedvm6r_b0TSjwNfeKW6ItICnXMqdQYVXoAdT2QugA76VnvwfXifsHI=w2400" class="imgBackground1">
+                <img src="https://lh4.googleusercontent.com/8ogtEyK39ntRaedvm6r_b0TSjwNfeKW6ItICnXMqdQYVXoAdT2QugA76VnvwfXifsHI=w2400"
+                    class="imgBackground1">
                 <div class="imgBackground105">
                     <span></span>
                 </div>
@@ -488,7 +505,8 @@ layout = """
             <div class='cardHeader navyHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt12">
                         <span class="textWhite" style="font-size: 3vw;"> Recomendaciones</span>
@@ -532,7 +550,8 @@ layout = """
             <div class='cardHeader grayHeader'>
                 <div class="HeaderCols">
                     <div class="logoDiv">
-                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400" alt="Whirpool logo" class='logo'>
+                        <img src="https://lh3.googleusercontent.com/3EZ4BlUHcuCAYwCcsTH8uR5a502hKZ_6z_MgS1ltwlFu-kLQwrxBEdhq0Up6VKtZbBc=w2400"
+                            alt="Whirpool logo" class='logo'>
                     </div>
                     <div class="headerTxt">
                         <span class="textWhite" style="font-size: 3vw;">
@@ -544,13 +563,8 @@ layout = """
             <div class="cardTitlesContent ">
                 <div id="atipicoWrapper">
                     <div class="dashboardLeft">
-                        <button type="button" class="btn btn-primary btn-lg dashbtn">Descriptivo</button>
-
+                        <button  onclick="window.location.href='http\:\/\/127.0.0.1:8051/';"type="button" class="btn btn-primary btn-lg dashbtn">Descriptivo</button>
                     </div>
-                    <div class="dashboardRight">
-                        <button type="button" class="btn btn-primary btn-lg dashbtn">Tendencias</button>
-                    </div>
-
                 </div>
             </div>
         </div>
