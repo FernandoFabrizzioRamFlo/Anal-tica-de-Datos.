@@ -4,6 +4,7 @@ from dash import html
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
+import numpy as np
 from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 from flask import Flask, render_template
@@ -791,4 +792,4 @@ def corr(selected_family, selected_refrigerant, x_var, y_var):
     return fig1
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
