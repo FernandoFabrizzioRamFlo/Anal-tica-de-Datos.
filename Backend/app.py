@@ -1,13 +1,14 @@
 import dash
+import numpy as np
+import pandas as pd
 from dash import dcc
 from dash import html
-import dash_bootstrap_components as dbc
+from controllers import *
 import plotly.express as px
-import pandas as pd
-import numpy as np
-from dash.dependencies import Input, Output
 import plotly.graph_objects as go
-from flask import Flask, render_template
+import dash_bootstrap_components as dbc
+from dash.dependencies import Input, Output
+from flask import Flask, render_template, request,  jsonify
 
 df = pd.read_excel("Data_base.xlsx")
 
@@ -17,6 +18,19 @@ server = Flask(__name__)
 @server.route('/name')
 def name():
     return render_template('../Frontend/CardCss/index.html')
+
+@server.route('/filter')
+def GET_FILTERED_STATISTICS():
+    try:
+        family = request.args.get('family')
+        variable = request.args.get('variable')
+        toRespond = famFilter(df,family,variable)
+        if 'error' in toRespond:
+            return jsonify({'message': 'Failed to filter data'}), 400 
+        else:
+            return jsonify(toRespond)
+    except:
+        return jsonify({'message': 'process failed within controller "famFilter()". '}), 500
 
 
 layout = """
