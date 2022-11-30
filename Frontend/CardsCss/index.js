@@ -19,7 +19,6 @@ submit.addEventListener("click", function(){
 
 function populate(data){
     countTxt.textContent = data.count;
-    totalTxt.textContent = data.count;
     meanTxt.textContent = data.mean.toFixed(2);
     modeTxt.textContent = data.mode.toFixed(2);
     medianaTxt.textContent = data.median.toFixed(2);
@@ -28,9 +27,11 @@ function populate(data){
     if(data.min == 'NA'){
         rangoTxt.textContent = data.min;
         percentage.textContent = 0;
+        totalTxt.textContent = 0;
     }else{
         rangoTxt.textContent = data.min + " - " + data.max;
         percentage.textContent = ((data.withinRange*100)/data.count).toFixed(2)
+        totalTxt.textContent = data.count;
     }
     
 }
