@@ -486,17 +486,30 @@ layout = """
                 <div id="recoWrapper">
                     <div id="recoLeftCol">
                         <div id="arrowsImgDiv">
-                            <img id="arrowsImg" src="https://lh5.googleusercontent.com/vvG84bY0FUFaZ8CbXDNfn6NUCC07FjNe2fMZ3mwC24FZuinboCpgERbs7iE2mg22aZY=w2400">
+                            <img id="arrowsImg"
+                                src="https://lh5.googleusercontent.com/vvG84bY0FUFaZ8CbXDNfn6NUCC07FjNe2fMZ3mwC24FZuinboCpgERbs7iE2mg22aZY=w2400">
                         </div>
                         <div id="moneyRecoDiv">
                             <i class="goldIcons" style="width: 25vw; height: auto; " data-feather="dollar-sign"></i>
                         </div>
                     </div>
                     <div id="recoRightCol">
+                        <div>
+                            <ul>
+                                <li><span class="textBlack" style="font-size: 3vw;">El consumo de Energía</span></li>
+                                <li><span class="textBlack" style="font-size: 3vw;">Modelo de regresión con FC, RC y Run
+                                        Time %</span></li>
+                                <li><span class="textBlack" style="font-size: 3vw;">Optimización de Ecuación del
+                                        modelo</span></li>
+                            </ul>
 
+                        </div>
+                        <div>
+                            <span class="textBlack" style="font-size: 4vw;">AHORRO PARA EL CLIENTE <i class="goldIcons"
+                                    style="width: 4vw; height: auto; " data-feather="smile"></i></span>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <!--(DASHBOARDS)-->
